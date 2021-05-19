@@ -1,4 +1,4 @@
-package com.example.javaexercise.demo00;
+package com.example.javaexercise.java_demo.demo00;
 
 public class Son extends Father {
     Son(){

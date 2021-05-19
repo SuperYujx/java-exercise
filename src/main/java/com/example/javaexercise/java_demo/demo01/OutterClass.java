@@ -1,4 +1,4 @@
-package com.example.javaexercise.demo01;
+package com.example.javaexercise.java_demo.demo01;
 
 public class OutterClass {
     int a = 1;
