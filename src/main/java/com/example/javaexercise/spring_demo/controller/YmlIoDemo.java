@@ -8,7 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class YmlIoDemo {
-    /*通过@Value注解获取配置*/
+    /**
+     * 通过@Value注解获取配置
+     */
     @Value("${student.name}")
     String name;
 
@@ -18,7 +20,9 @@ public class YmlIoDemo {
     @Value("${student.age}")
     Integer age;
 
-    /*通过实体类注解获取配置*/
+    /**
+     * 通过实体类注解获取配置
+     */
     @Autowired
     StudentConfig studentConfig;
 
