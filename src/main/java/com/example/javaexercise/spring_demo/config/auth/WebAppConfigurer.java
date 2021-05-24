@@ -17,9 +17,10 @@ public class WebAppConfigurer implements WebMvcConfigurer {
         InterceptorRegistration loginRegistration = registry.addInterceptor(new LoginCheckHandlerInterceptor());
 
         //所有路径都被拦截
-        loginRegistration.addPathPatterns("/**");
+        //loginRegistration.addPathPatterns("/**");
         //添加不拦截路径
-        loginRegistration.excludePathPatterns("/sayHi/**");
+        //loginRegistration.excludePathPatterns("/sayHi/**");
+        loginRegistration.excludePathPatterns("/**");
 
 //        loginRegistration.excludePathPatterns(
 //                "/**/*.html",
